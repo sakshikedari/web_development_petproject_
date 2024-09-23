@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet Care</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+    <img class="logo" src="logo4.png" alt="logo">
+    <div class="container">
+        <div class="background-container">
+            <h1>Welcome to Virtual Pet Care</h1>
+            <p class="tagline">Experience the joy of pet care before you commit to a real pet!</p>
+        </div>
+        <form id="loginForm" action="welcome.html" method="post">
+            <h2>Login to Your Account</h2>
+            <div class="input-container">
+                <i class="uil uil-user icon"></i>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-container">
+                <i class="uil uil-lock icon"></i>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <i class="uil uil-eye-slash showHidePw" id="togglePw"></i>
+            </div>
+            <div class="checkbox-text">
+                <div class="checkbox-content">
+                    <input type="checkbox" id="logcheck">
+                    <label for="logcheck" class="text">Remember me</label>
+                </div>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit">Login</button>
+            <p class="signup-link">Don't have an account? <a href="register.html">Sign up here</a></p>
+        </form>
+
+
+    </div>
+
+    <script src="storage.js"></script>
+
+</body>
+
+</html>
