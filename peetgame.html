@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet Game</title>
+    <link rel="stylesheet" href="petgame.css">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="#"><img src="logo4.png" alt="Virtual Pet Care Logo"></a>
+    </div>
+
+    <div class="game-container">
+        <h1>Your Virtual Pet</h1>
+
+        <div class="pet">
+            <img id="petImage" src="pet.jpeg" alt="Your Virtual Pet">
+            <button id="customizePet">Customize Pet</button>
+        </div>
+
+        <div class="stats">
+            <h2>Stats</h2>
+            <p><strong>Happiness:</strong> <span id="happiness">50</span></p>
+            <p><strong>Hunger:</strong> <span id="hunger">50</span></p>
+            <p><strong>Energy:</strong> <span id="energy">50</span></p>
+        </div>
+
+        <div class="actions">
+            <button id="feedButton">Feed Pet</button>
+            <button id="playButton">Play with Pet</button>
+            <button id="restButton">Put Pet to Sleep</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
