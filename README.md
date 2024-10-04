@@ -1,6 +1,6 @@
-My Pet Journey Website
+Pet care universe Website
 
-My Pet Journey offers a comprehensive platform designed to help users learn about responsible pet ownership through interactive and educational tools. The site includes several key features:
+Pet care universe offers a comprehensive platform designed to help users learn about responsible pet ownership through interactive and educational tools. The site includes several key features:
 
 1. Virtual Pet Game: Users can choose and customize their virtual pet, managing its happiness, hunger, and energy by performing tasks like feeding, playing, and resting.
 2. Pet Types: An exploration section where users can learn about various pet species, their habits, care requirements, and special needs.
